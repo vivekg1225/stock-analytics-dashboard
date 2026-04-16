@@ -4,6 +4,6 @@ __pycache__/
 venv/
 output/
 checkpoint/
-*.log
+*.loggit
 *.csv
 *.json
