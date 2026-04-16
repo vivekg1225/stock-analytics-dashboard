@@ -5,6 +5,7 @@ A full end-to-end data engineering project that simulates live stock price strea
 ---
 
 ## Architecture
+```
 Kafka Producer
       ↓
 Spark Streaming (Real - time processing) → results.json
@@ -16,7 +17,7 @@ Spark Batch (ML + analytics every 10s) → batch_results.json
 Flask API
       ↓
 Live Dashboard (Socket.IO)
-
+```
 ---
 
 ## Features
